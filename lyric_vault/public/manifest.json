@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Lyric_Vault.(LV)",
+  "description": "Lyric_Vault chrome extension is an extension that helps: Get and Summarise Youtube Transcript. Whether it's music lyrics, learning video or descriptive tiutorials.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://m.youtube.com/*",
+    "http://www.youtube.com/*",
+    "http://m.youtube.com/*"
+  ],
+  "icons": {
+    "16": "images/Lyric.png",
+    "48": "images/Lyric.png" ,
+    "128": "images/Lyric.png"
+  }
+}
